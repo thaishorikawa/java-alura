@@ -1,5 +1,6 @@
-package modelo;
+package br.com.bytebank.banco.modelo;
 
+//br.com.bytebank.banco.modelo.Cliente =: FQN
 public class Cliente {
 
 	private String nome;
