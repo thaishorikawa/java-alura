@@ -118,4 +118,9 @@ public abstract class Conta extends Object implements Comparable<Conta>{
 		return "Numero: " + this.numero + ", Agencia: " + this.agencia + ", Saldo: " + this.saldo;
 	}
 
+	public double getValorImposto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
