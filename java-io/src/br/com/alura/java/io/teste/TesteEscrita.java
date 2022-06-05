@@ -18,6 +18,8 @@ public class TesteEscrita {
 		Reader isr = new InputStreamReader(fis);
 		BufferedReader br = new BufferedReader(isr);
 		
+		
+		
 		String linha = br.readLine();
 		
 		while(linha != null) {
