@@ -15,7 +15,6 @@ public class TesteTributaveis {
 		
 		CalculadorDeImposto calc = new CalculadorDeImposto();
 		calc.registra(cc);
-		calc.registra(seguro);
 		
 		System.out.println(calc.getTotalImposto());
 
