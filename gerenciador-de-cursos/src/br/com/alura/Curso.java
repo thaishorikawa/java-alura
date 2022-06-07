@@ -30,6 +30,16 @@ public class Curso {
 	public void adiciona(Aula aula) {
 		this.aulas.add(aula);
 	}
+	
+	public int getTempoTotal() {
+		int tempoTotal = 0;
+		for (Aula aula : aulas) {
+			tempoTotal += aula.getTempo();
+		}
+		return tempoTotal;
+	}
+	
+	
 
 
 }
