@@ -12,8 +12,8 @@ public class TestaCurso {
 		javaColecoes.adiciona(new Aula("Trabalhando com ArrayList", 21));
 		javaColecoes.adiciona(new Aula("Modelando com coleções", 22));
 		
-		List<Aula> aulasImutavel = javaColecoes.getAulas();
-		List<Aula> aulas = new ArrayList<>(aulasImutavel);
+		List<Aula> aulasImutaveis = javaColecoes.getAulas();
+		List<Aula> aulas = new ArrayList<>(aulasImutaveis);
 		
 		System.out.println(aulas);
 		
